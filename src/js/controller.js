@@ -10,9 +10,6 @@ import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 import {async} from 'regenerator-runtime';
 
-// if(module.hot){
-//   module.hot.accept();
-// }
 
 // const recipeContainer = document.querySelector('.recipe');
 
@@ -43,8 +40,6 @@ const controlRecipes = async function(){
   }
 }
 
-// ['hashchange', 'load'].forEach(ev =>
-//   window.addEventListener(ev, controlRecipes));
 
 const controlSearchResults = async function(){
 
