@@ -5,7 +5,7 @@
   "default": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --no-scope-hoist --dist-dir ./dist"
+    "build": "parcel build index.html --no-scope-hoist ./dist"
   },
   "author": "min khant",
   "license": "ISC",
